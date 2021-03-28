@@ -1,1 +1,6 @@
-venv
+venv/
+.idea/
+build/
+dist/
+src/rk_opt_rkumar60.egg-info
+src/__pycache__/
