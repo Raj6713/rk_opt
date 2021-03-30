@@ -11,6 +11,7 @@ def calculate_enter_and_exit(dataframe, minimum_value, variable_name, index_valu
     print(dataframe)
     # get index where min_in_enter_or_exit
     index_where_value_is_min = dataframe[dataframe['Enter_or_Exit'] == min_in_enter_or_exit].index.values[0]
+    print(index_where_value_is_min)
     print(min_in_enter_or_exit, index_where_value_is_min)
 
 
